@@ -1,2 +1,11 @@
 # deploy-skeleton
-Skeleton of SpaceONE deploy
+Skeleton of SpaceONE deployment
+
+# Deployment
+
+## Backend
+
+## Frontend
+
+## Project-site
+
