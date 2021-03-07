@@ -1,13 +1,8 @@
 name: "Create Helm Chart"
 on:
   workflow_dispatch:
-    inputs:
-      tag:
-        description: '`vx.y.z-릴리즈` 형태로 버전을 입력해주세요. `vx.y.z`도 가능합니다.'
-        required: true
-        default: v1.2.3-rc1
   repository_dispatch:
-    types: [branch_tagging]
+    types: [create_helm_chart]
 
 jobs:
   helm:
